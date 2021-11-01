@@ -4,9 +4,33 @@
 }
 
 .header__container {
-  max-height: 1624px;
+  max-height: 130px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 150px;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__item:not(:last-child) {
+  margin: 0 80px 0 0;
+}
+
+.header__logo {
+  width: 148px;
+  height: 119px;
+  padding: 8px 0 0 0;
 }
 /*# sourceMappingURL=style.css.map */
