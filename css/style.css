@@ -53,9 +53,7 @@ body {
 }
 
 .page__main-block {
-  background-image: url(./img/BGvector.png);
-  width: 100%;
-  height: 100%;
+  position: relative;
 }
 
 .main-block-content {
@@ -87,6 +85,18 @@ body {
   color: white;
   font-weight: 700;
   font-size: 30px;
+  z-index: 99;
+}
+
+.main-block-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: content;
+     object-fit: content;
+  z-index: 1;
 }
 
 .main-block-img {

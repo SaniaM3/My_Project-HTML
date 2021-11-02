@@ -39,9 +39,7 @@ body
     background-color: #edfbf9
 
 .page__main-block
-    background-image: url(./img/BGvector.png)
-    width: 100%
-    height: 100%
+    position: relative
 
 .main-block-content
     display: flex
@@ -63,8 +61,16 @@ body
     color: white
     font-weight: 700
     font-size: 30px
+    z-index: 99
 
-
+.main-block-cover
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    object-fit: content
+    z-index: 1
 
 .main-block-img
     width: 591px
