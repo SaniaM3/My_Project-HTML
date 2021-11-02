@@ -1,9 +1,18 @@
+body {
+  max-width: 100%;
+}
+
 .wrapper {
   min-height: 100%;
   overflow: hidden;
 }
 
+.header__logo {
+  margin: 0 15px;
+}
+
 .header__container {
+  width: 1620px;
   max-height: 130px;
   margin: 0 auto;
   display: -webkit-box;
@@ -15,7 +24,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 150px;
 }
 
 .menu__list {
@@ -32,5 +40,49 @@
   width: 148px;
   height: 119px;
   padding: 8px 0 0 0;
+}
+
+.page {
+  background-color: #edfbf9;
+}
+
+.page__main-block {
+  background-image: url(./img/BGvector.png);
+  width: 100%;
+  height: 100%;
+}
+
+.main-block-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.main-block-subtitle {
+  margin: 22px 0 30px 0;
+  width: 50rem;
+  line-height: 130%;
+}
+
+.main-block-btn {
+  padding: 19px 89px;
+  margin-bottom: 70px;
+  background-color: #259385;
+  border-radius: 30px;
+  color: white;
+}
+
+.main-block-img {
+  width: 591px;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */
