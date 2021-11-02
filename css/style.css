@@ -12,12 +12,12 @@ body {
 }
 
 ._container {
-  width: 1620px;
+  width: 1560px;
   margin: 0 auto;
 }
 
 .header__container {
-  width: 1620px;
+  width: 1560px;
   max-height: 130px;
   margin: 0 auto;
   display: -webkit-box;
@@ -108,6 +108,10 @@ body {
   height: auto;
 }
 
+.page__card-block {
+  padding: 120px 0 0 0;
+}
+
 .card-block-cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,7 +127,49 @@ body {
 
 .card-block-item {
   background-image: url(../img/recctangle.png);
-  max-width: 420px;
-  max-height: 665px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  height: 535px;
+}
+
+.card-block-img {
+  width: 100px;
+  height: 100px;
+}
+
+.card-block-title {
+  margin: 20px 0;
+  font-size: 32px;
+  line-height: 47px;
+  font-weight: 500;
+}
+
+.card-block-text {
+  width: 324px;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.card-block-btn {
+  padding: 12px 44px;
+  border-radius: 30px;
+  background-color: #259385;
+  color: white;
+  margin-top: 60px;
+  font-size: 24px;
+  line-height: 130%;
 }
 /*# sourceMappingURL=style.css.map */
