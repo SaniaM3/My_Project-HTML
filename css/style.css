@@ -59,6 +59,14 @@ body {
   max-width: 606px;
 }
 
+._subtitle {
+  margin: 22px 0 30px 0;
+  max-width: 1105px;
+  line-height: 130%;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+}
+
 .page {
   background-color: #edfbf9;
 }
@@ -85,12 +93,6 @@ body {
 
 .main-block-title {
   color: white;
-}
-
-.main-block-subtitle {
-  margin: 22px 0 30px 0;
-  width: 50rem;
-  line-height: 130%;
 }
 
 .main-block-btn {
@@ -241,11 +243,20 @@ body {
           justify-content: center;
 }
 
+.practice__item:hover {
+  background-image: url(../img/rectangle2.png);
+  background-size: 100%;
+}
+
 .practice__item-title {
   font-weight: 500;
   font-size: 32px;
   line-height: 47px;
   margin-bottom: 10px;
+}
+
+.practice__item-title:first-child {
+  margin-top: 50px;
 }
 
 .practice__item-subtitle {
