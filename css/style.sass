@@ -24,7 +24,6 @@ body
     font-size: 28px
     line-height: 41px
     
-
 .menu__item
     &:not(:last-child)
         margin: 0 80px 0 0
@@ -154,11 +153,13 @@ body
     display: flex
     justify-content: center
     align-items: center
+    padding-bottom: 63px
 
 .practice-img
     width: 745px
     height: 594px
     margin-right: 156px
+    margin-top: 94px
 
 .practice__block-items
     display: flex
@@ -186,7 +187,112 @@ body
     color: rgba(0, 0, 0, 0.5)
     max-width: 579px
 
-.audio-content-img
-    width: 696px
-    height: 679px
+.audio-block-container
+    padding-top: 59px
 
+.audio-content-img
+    width: 697px
+    height: auto
+    margin-left: 274px
+    margin-top: 70px
+
+.audio-block-content
+    display: flex
+    justify-content: space-between
+    padding-bottom: 162px
+
+.audio-block-subtitle
+    margin-top: 22px
+
+.audio_column
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.audio_item
+    width: 650px
+    height: 150px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    padding: 30px 40px
+    border: 2px solid #259385
+    background: linear-gradient(90deg, #C3E2DE 27.22%, #CFF1ED 48.89%, #EDFBF9 96.77%)
+    border-radius: 15px
+    &:nth-child(2)
+        margin-top: 115px
+        margin-bottom: 50px
+
+.audio-title
+    font-size: 32px
+    line-height: 47px
+    margin-bottom: 10px
+
+.audio-subtitle
+    color: rgba(0, 0, 0, 0.5)
+    font-size: 24px
+
+.audio_item-icon
+    width: 120px
+    height: 120px
+    margin-top: 20px
+
+.meditation_background
+    position: absolute
+    width: 100%
+    height: 1314px
+    object-fit: content
+
+.page_meditation-content
+    position: relative
+    width: 1682px
+    margin: 0 auto
+    padding: 128px 0 162px 0
+
+.meditation_grid 
+	display: grid 
+	grid-template-columns: repeat(3, 1fr) 
+	grid-template-rows: 1fr 
+	grid-column-gap: 0px 
+	grid-row-gap: 0px 
+    
+.meditation_grid-left-column
+	grid-area: 1 / 1 / 2 / 2 
+    
+.meditation_grid-left-column .meditation_grid-item
+    background: linear-gradient(90deg, #C3E2DE 27.22%, #CFF1ED 48.89%, #EDFBF9 96.77%)
+    text-align: right
+    border: 2px solid linear-gradient(90deg, #378377 100%, #B0EAE2 0%)
+
+.meditation_grid-item
+    width: 597px
+    height: 200px
+    padding: 25px 35px
+    &:nth-child(2)
+        margin: 100px 0
+    border-radius: 15px
+.meditation_grid-image
+	grid-area: 1 / 2 / 2 / 3 
+
+.meditation_grid-right-column
+	grid-area: 1 / 3 / 2 / 4 
+
+.meditation_grid-right-column .meditation_grid-item
+    background: linear-gradient(-90deg, #C3E2DE 27.22%, #CFF1ED 48.89%, #EDFBF9 96.77%)
+
+.meditation_grid-title
+    font-weight: 500
+    font-size: 32px
+    line-height: 47px
+    margin-bottom: 10px
+
+.meditation_grid-subtitle
+    font-size: 24px
+    line-height: 130%
+    color: rgba(0, 0, 0, 0.5)
+
+.meditation_grid-img
+    width: 339px
+    height: 802px
+    margin: 0 75px
