@@ -1,6 +1,9 @@
 body
     max-width: 100%
 
+p, a
+    font-family: 'Heebo', sans-serif
+
 .wrapper
     min-height: 100%
     overflow: hidden
@@ -12,12 +15,31 @@ body
     width: 1560px
     margin: 0 auto
 
+.header__title
+    font-family: 'Merienda One', cursive
+    font-size: 54px
+    line-height: 130%
+    max-width: 706px
+    margin: 0 auto
+    align-items: center
+    text-align: center
+    padding-bottom: 22px
+
+.header__subtitle
+    margin: 22px 0 30px 0
+    max-width: 1105px
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.5)
+    font-size: 24px
+    margin: 0 auto
+    text-align: center
+    padding-bottom: 70px
+
 .header__container
     max-height: 130px
     display: flex
     justify-content: space-between
     align-items: center
-
 
 .menu__list
     display: flex
@@ -36,23 +58,6 @@ body
     height: 119px
     padding: 8px 0 0 0
 
-._title
-    font-size: 54px
-    line-height: 130%
-    max-width: 606px
-    margin: 0 auto
-    align-items: center
-    text-align: center
-
-._subtitle
-    margin: 22px 0 30px 0
-    max-width: 1105px
-    line-height: 130%;
-    color: rgba(0, 0, 0, 0.5)
-    font-size: 24px
-    margin: 0 auto
-    text-align: center
-
 .page
     background-color: #edfbf9
 
@@ -67,11 +72,12 @@ body
     padding-top: 70px
     text-align: center
     
-.main-block-title
+.header_white-title
     color: white
     
 .main-block-btn
     padding: 19px 89px
+    margin-top: -40px
     margin-bottom: 70px
     background-color: #259385
     border-radius: 30px
@@ -92,7 +98,7 @@ body
     height: auto
 
 .page__card-block
-    padding: 120px 0 0 0 
+    padding: 120px 0 77px 0 
 
 .card-block-cards
     display: flex
@@ -134,13 +140,6 @@ body
     font-size: 24px
     line-height: 130%
 
-.practice-block__header
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: center
-    text-align: center
-
 .practice-block__title
     margin: 77px 0 22px 0
     
@@ -159,7 +158,6 @@ body
     width: 745px
     height: 594px
     margin-right: 156px
-    margin-top: 94px
 
 .practice__block-items
     display: flex
@@ -192,22 +190,17 @@ body
 
 .audio-content-img
     width: 697px
-    height: auto
+    height: 710px
     margin-left: 274px
-    margin-top: 70px
 
 .audio-block-content
     display: flex
     justify-content: space-between
     padding-bottom: 162px
 
-.audio-block-subtitle
-    margin-top: 22px
-
 .audio_column
     display: flex
     flex-direction: column
-    justify-content: center
 
 .audio_item
     width: 650px
@@ -241,14 +234,14 @@ body
 .meditation_background
     position: absolute
     width: 100%
-    height: 1314px
+    height: 1375px
     object-fit: content
 
 .page_meditation-content
     position: relative
     width: 1682px
     margin: 0 auto
-    padding: 128px 0 162px 0
+    padding: 128px 0 220px 0
 
 .meditation_grid 
 	display: grid 
@@ -296,3 +289,101 @@ body
     width: 339px
     height: 802px
     margin: 0 75px
+
+.transform__grid
+	display: grid 
+	grid-template-columns: repeat(2, 1fr) 
+	grid-template-rows: repeat(2, 1fr) 
+	grid-column-gap: 0px 
+	grid-row-gap: 0px 
+
+.transform__item-top-left
+	grid-area: 1 / 1 / 2 / 2 
+
+.transform__item-top-right
+	grid-area: 1 / 2 / 2 / 3 
+    
+.transform__item-bottom-left
+	grid-area: 2 / 1 / 3 / 2 
+
+.transform__item-bottom-right
+	grid-area: 2 / 2 / 3 / 3 
+
+.transform__container
+    width: 1520px
+    margin: 0 auto
+    padding: 0 0 235px 0
+
+.transform_img
+    width: auto
+    height: 530px
+
+.transform__item-title
+    font-weight: 500
+    font-size: 32px
+    line-height: 47px
+    padding-bottom: 17px
+
+.transform__item-subtitle
+    width: 557px
+    font-size: 24px
+    line-height: 130%
+    color: rgba(0, 0, 0, 0.5)
+    padding-bottom: 40px
+    &:nth-child(2)
+        padding-bottom: 7px
+
+
+.transform__item-btn
+    padding: 12px 44px
+    background-color: #259385
+    color: white
+    border-radius: 30px
+    font-size: 24px
+    
+.transform__grid .transform__item-top-right
+    padding: 121px 0 0 205px
+    align-items: right
+
+.transform__grid .transform__item-bottom-left
+    padding: 165px 0 0 0
+    align-items: right
+
+.footer
+    position: relative
+
+.footer__content
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    background-color: #edfbf9
+    padding: 0 0 30px 0
+
+.footer__nav-list
+    display: flex
+
+.footer__social-icon
+    width: 55px
+    height: 55px
+    &:not(:last-child)
+        margin-right: 20px
+
+.footer__nav-list
+    margin: 30px 0
+
+.footer__nav-item
+    font-size: 28px
+    line-height: 41px
+    padding-right: 20px
+    &:not(:last-child)
+        margin-right: 20px
+        border-right: 4px solid black
+    
+.footer__background
+    position: absolute
+    width: 100%
+    height: 425px
+    left
+    bottom: 0
+    z-index: 1
