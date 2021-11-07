@@ -312,7 +312,7 @@ p, a {
 .meditation_grid-left-column .meditation_grid-item {
   background: linear-gradient(90deg, #C3E2DE 27.22%, #CFF1ED 48.89%, #EDFBF9 96.77%);
   text-align: right;
-  border: 2px solid linear-gradient(90deg, #378377 100%, #B0EAE2 0%);
+  padding-left: 88px;
 }
 
 .meditation_grid-item {
@@ -336,6 +336,7 @@ p, a {
 
 .meditation_grid-right-column .meditation_grid-item {
   background: linear-gradient(-90deg, #C3E2DE 27.22%, #CFF1ED 48.89%, #EDFBF9 96.77%);
+  padding-right: 88px;
 }
 
 .meditation_grid-title {
